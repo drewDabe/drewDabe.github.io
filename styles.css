@@ -1,4 +1,17 @@
 body {
-  color: rgb(105, 200, 159);
+  background: rgb(105, 200, 159);
+  font-family: Helvetica;
 }
-
+h1 {
+  color: red;
+}
+assign {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  background: rgb(155, 200, 159);
+}
+.assign img {
+  width: 200px;
+  padding: 10px;
+}
