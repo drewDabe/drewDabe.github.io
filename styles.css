@@ -12,6 +12,7 @@ assign {
   background: rgb(155, 200, 159);
 }
 .assign img {
-  width: 200px;
+  min-height: 15%;
+  object-fit: scale-down;
   padding: 10px;
 }
