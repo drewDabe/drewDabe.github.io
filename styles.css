@@ -38,18 +38,21 @@ to {
 70% {
     translate: 25vw 0;
     scale:150% 1;
-    transform: rotate(90deg);
+    transform: rotate(-35deg);
 }
 80% {
     transform-origin: center;
-    transform: rotate(0deg);
-    width: auto;
+    transform: rotate(-360deg);
     scale: 100% 1;
-    margin-right: 35%;
-    transition: margin-right 2s ease-in-out;
+    
 }
 95% {
     translate: 0 50vh;
     scale: 200% 1;
+    width:auto;
+    margin-right: 35%;
+    transition: margin-right 2s ease-in-out;
+    transition: margin-left 2s ease-in-out;
+    margin-left: 35%
 }
 }
