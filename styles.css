@@ -1,10 +1,53 @@
 body {
     background: rgb(105, 200, 159);
     font-family: Helvetica;
+    overflow-x:hidden;
 }
 h1 {
     color: red;
     text-align: center;
     box-shadow: 2px 2px rgb(75, 200, 140);
+    animation: rotate 4.5s;
 }
-    
+h2 {
+    animation: slider 3s;
+}
+.projects {
+    animation: slider 4s;
+}
+@keyframes slider {
+from {
+    translate: 150vw 0;
+    scale: 200% 1;
+}
+to {
+    translate: 0 0;
+    scale: 100% 1;
+}
+}
+@keyframes rotate {
+15% {
+    transform-origin: top left;
+    transform: rotate(90deg);
+    margin-right:60%;
+    width:auto - 1vw;
+    transition: margin-right 1.5s ease-in-out;
+    scale: 200% 1;
+}
+70% {
+    translate: 25vw 0;
+    scale:150% 1;
+    transform: rotate(90deg);
+}
+80% {
+    transform-origin: center;
+    transform: rotate(0deg);
+    width: auto;
+    scale: 100% 1;
+    margin-right: 35%;
+    transition: margin-right 2s ease-in-out;
+}
+95% {
+    translate: 0 50vh;
+}
+}
