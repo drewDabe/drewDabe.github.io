@@ -49,5 +49,6 @@ to {
 }
 95% {
     translate: 0 50vh;
+    scale: 200% 1;
 }
 }
