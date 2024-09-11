@@ -1,0 +1,10 @@
+body {
+    background: rgb(105, 200, 159);
+    font-family: Helvetica;
+}
+h1 {
+    color: red;
+    text-align: center;
+    box-shadow: 2px 2px rgb(75, 200, 140);
+}
+    
