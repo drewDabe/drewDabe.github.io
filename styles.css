@@ -9,10 +9,10 @@ body {
     z-index:-1;
 }
 h2 {
-    animation: slider 3s;
+    animation: slider 1.8s;
 }
 .projects {
-    animation: slider 4s;
+    animation: slider 2.33s;
     margin-left:2rem;
 }
 h1 {
