@@ -11,6 +11,9 @@ body {
 h2 {
     animation: slider 1.8s;
 }
+h3 {
+    text-align: center;
+}
 .projects {
     animation: slider 2.33s;
     margin-left:2rem;
