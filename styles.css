@@ -80,3 +80,13 @@ to {
     margin-left: 35%
 }
 }
+@media (orientation: portrait) {
+    .project {
+        width: 40%;
+        margin: 5px 10px;
+        padding: 5px 5px;
+    }
+    .projects {
+        margin-left:.75rem;
+    }
+}
