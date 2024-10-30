@@ -90,3 +90,23 @@ to {
         margin-left:.75rem;
     }
 }
+.about {
+    display:flex;
+    flex-wrap:wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
+}
+.about p {
+    width:50%;
+    text-align: center;
+    margin: auto;
+    line-height: 125%;
+    margin-left:5rem;
+}
+.about img {
+    margin-left:5vw;
+    max-height: 220px;
+    border-radius: 25%;
+    border: 2px solid rgb(126, 14, 201);
+}
