@@ -57,7 +57,7 @@ h1 {
         scale: 1 100%;
     }
     to {
-        translate: -8vw 0;
+        translate: 8vw 0;
         scale: 100% 1;
     }
 }
