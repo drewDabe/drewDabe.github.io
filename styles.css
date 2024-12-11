@@ -47,6 +47,23 @@ h1 {
     box-shadow: 2px 2px rgb(75, 200, 140);
     z-index:5;
 }
+h2 {
+    animation:rightadjust;
+    animation-delay:3s;
+}
+@keyframes rightadjust {
+    0% {
+        translate: 0 0;
+        scale: 100% 1;
+    }
+    50% {
+        scale: 150% 1;
+    }
+    to {
+        translate: 8vw 0;
+        scale: 100% 1;
+    }
+}
 @keyframes slider {
 from {
     translate: 150vw 0;
