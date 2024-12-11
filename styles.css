@@ -1,7 +1,7 @@
 body {
     background: rgb(105, 200, 159);
     font-family: Helvetica;
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 .picture,.selfpicture {
     max-width: 100%;
@@ -36,7 +36,7 @@ h3 {
 }
 .projects {
     animation: slider 2.33s;
-    margin-left:2rem;
+    margin-left: 2rem;
 }
 .projects { display:flex; flex-wrap:wrap; } /* condensed to save space */
 .project {
