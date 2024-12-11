@@ -9,7 +9,7 @@ body {
     z-index:-1;
 }
 .intro {
-    text-shadow: .5px .5px .5px red, 0 0 1em purple, 0 0 0.2em purple;
+    text-shadow: 0px 0px 1px red, 0 0 1em purple, 0 0 0.2em purple;
 }
 .selfpicture {
     filter: drop-shadow(0 0 0.75rem crimson);
@@ -51,10 +51,10 @@ h1 {
 @keyframes rightadjust {
     0% {
         translate: 0 0;
-        scale: 100% 1;
+        scale: 1 100%;
     }
     50% {
-        scale: 150% 1;
+        scale: 1 100%;
     }
     to {
         translate: -8vw 0;
