@@ -28,7 +28,7 @@ h2 {
     scale: 100% 1;
 }
 .skills p, .contact p {
-    animation: rightadjust 3s ease-in-out 1.8s;
+    animation: prightadjust 3s ease-in-out 1.8s;
     translate: 8vw 0;
     scale: 100% 1;
 }
@@ -56,6 +56,19 @@ h1 {
 }
 
 @keyframes rightadjust {
+    0% {
+        translate: 0 0;
+        scale: 1 100%;
+    }
+    50% {
+        scale: 1 100%;
+    }
+    to {
+        translate: 5vw 0;
+        scale: 100% 1;
+    }
+}
+@keyframes prightadjust {
     0% {
         translate: 0 0;
         scale: 1 100%;
