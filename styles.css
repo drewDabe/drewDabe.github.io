@@ -23,7 +23,7 @@ a { /* change the appearance of ALL links */
     margin: 15px;
 }
 h2 {
-    animation: slider 1.8s none 1s rightadjust .75s;
+    animation: slider 1.8s ease-in-out 1s, rightadjust 2s ease-in-out;
 }
 h3 {
     text-align: center;
@@ -57,7 +57,7 @@ h1 {
         scale: 150% 1;
     }
     to {
-        translate: 8vw 0;
+        translate: -8vw 0;
         scale: 100% 1;
     }
 }
