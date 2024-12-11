@@ -9,7 +9,7 @@ body {
     z-index:-1;
 }
 .intro {
-    text-shadow: 0px 0px 1px red, 0 0 1em purple, 0 0 0.2em purple;
+    text-shadow: 0 0 1em rgb(191, 64, 191), 0 0 0.2em rgb(191, 64, 191);
 }
 .selfpicture {
     filter: drop-shadow(0 0 0.75rem crimson);
@@ -24,7 +24,8 @@ a { /* change the appearance of ALL links */
 }
 h2 {
     animation: slider 1.8s ease-in-out 1s, rightadjust 2s ease-in-out;
-    animation-fill-mode: forwards;
+    translate: 8vw 0;
+    scale: 100% 1;
 }
 h3 {
     text-align: center;
