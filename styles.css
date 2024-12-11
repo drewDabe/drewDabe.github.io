@@ -23,7 +23,7 @@ a { /* change the appearance of ALL links */
     margin: 15px;
 }
 h2 {
-    animation: slider 1.8s;
+    animation: slider 1.8s none 1s rightadjust .75s;
 }
 h3 {
     text-align: center;
@@ -47,10 +47,7 @@ h1 {
     box-shadow: 2px 2px rgb(75, 200, 140);
     z-index:5;
 }
-h2 {
-    animation:rightadjust;
-    animation-delay:3s;
-}
+
 @keyframes rightadjust {
     0% {
         translate: 0 0;
