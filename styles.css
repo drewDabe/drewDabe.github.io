@@ -24,6 +24,7 @@ a { /* change the appearance of ALL links */
 }
 h2 {
     animation: slider 1.8s ease-in-out 1s, rightadjust 2s ease-in-out;
+    animation-fill-mode: forwards;
 }
 h3 {
     text-align: center;
