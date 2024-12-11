@@ -9,7 +9,7 @@ body {
     z-index:-1;
 }
 .intro {
-    text-shadow: 1px 1px 1px red, 0 0 1em purple, 0 0 0.2em purple;
+    text-shadow: .5px .5px .5px red, 0 0 1em purple, 0 0 0.2em purple;
 }
 .selfpicture {
     filter: drop-shadow(0 0 0.75rem crimson);
